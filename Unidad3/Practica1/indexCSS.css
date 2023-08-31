@@ -1,0 +1,61 @@
+
+body {
+  font-family: sans-serif;
+  background-color: rgba(245, 245, 245, 1);
+}
+
+h1 {
+  font-size: 24px;
+  color: #242424;
+  font-weight: 900;
+}
+
+h2 {
+  font-size: 20px;
+  color: #606060;
+  font-weight: 800;
+}
+
+p {
+  font-size: 14px;
+  margin: 30px 0;
+}
+
+ul {
+  font-family: monospace;
+  font-size: 18px;
+  list-style: none;
+  margin-left: 100px;
+  padding: 20px;
+  border: 2px solid blue;
+  max-width: 40%;
+}
+
+a {
+  font-weight: bold;
+  text-decoration: none;
+}
+
+ul li {
+  margin: 10px 0;
+  padding: 10px;
+  background-color: rgba(0, 128, 0, 0.1);
+  transition: background-color 0.3s;
+}
+
+ul li:hover {
+  background-color: rgba(0, 128, 0, 0.2);
+}
+
+ul li a {
+  color: orange;
+  text-decoration: underline;
+}
+
+ul li a:hover {
+  color: darkorange;
+}
+
+ul li:nth-child(2), ul li:nth-child(6) {
+  color: green;
+}
