@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        table,
+        td,
+        th {
+        border: 1px solid black;
+        border-collapse: collapse;
+        padding: 5px;
+        }
+        table {
+        width: 100%;
+        }
+        </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th>Nombre</th>
+                <th>Equipo</th>
+                <th>edad</th>
+                <th>Goles en su carrera</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td> Lionel Messi </td>
+                <td> Inter Miami </td>
+                <td> 36 años </td>
+                <td> 818 goles </td>
+            </tr>
+
+            <tr>
+                <td> Cristiano Ronaldo </td>
+                <td> Manchester United </td>
+                <td> 38 años </td>
+                <td> 838 goles </td>
+            </tr>
+
+            <tr>
+                <td> Mohamed Salah </td>
+                <td> Liverpool </td>
+                <td> 31 años </td>
+                <td> 300 goles </td>
+            </tr>
+        </tbody>
+    </table>
+
+    <table>
+        <caption> El total de personas que asistieron a recitales</caption>
+        <thead>
+            <tr>
+                <th>Nombre de la banda</th>
+                <th colspan = "2"> Localidad del concierto</th>
+                <th>Cantante de la banda</th>
+                <th>Genero</th>
+                <th>Total de espectadores</th>
+            </tr>
+         </thead>
+
+        <tbody>
+            <tr>
+              <td>Tan Bionica</td>
+              <td>Estadio Monumental</td>
+              <td> Luna Park</td>
+              <td>Chano Moreno Charpentier</td>
+              <td>Rock</td>
+              <td>30.000 personas</td>
+              <td><a href="https://www.instagram.com/tanbionica/?hl=es-la">instagram de la banda</a></td>
+              
+            </tr>
+
+           
+
+            <tr>
+                <td>Arjona</td>
+                <td  colspan = "2">Anfiteatro</td>
+                <td>Ricardo Arjona</td>
+                <td>Pop latino</td>
+                <td>10.000 personas</td>
+                <td ><a href="https://ricardoarjona.com/">Pagina oficial del cantante</a></td>
+            </tr>
+
+            <tr>
+                <td>Callejeros</td>
+                <td colspan = "2">Estadio velez Sarfield</td>
+                <td>Patricio Santos Fontanet</td>
+                <td>rock</td>
+                <td>20.000 personas</td>
+                <td><a href="https://www.instagram.com/callejerosnof/?hl=es-la">Redes sociales de la banda</a></td>
+            </tr>
+
+            <tr>
+                <td>Bizarrap</td>
+                <td colspan = "2">Estadio Metropolitano</td>
+                <td>Gonzalo Julián Conde</td>
+                <td>Hip hop</td>
+                <td>50.000 personas</td>
+                <td> <a href="https://www.youtube.com/results?search_query=bizarrap">Youtube del artista</a></td>
+            </tr>
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <td colspan="5">El total de espectadores es</td>
+                <td>110.000 personas</td>
+
+            </tr>
+        </tfoot>
+
+    </table>
+</body>
+</html>
