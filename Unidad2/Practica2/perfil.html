@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Formulario de Datos Personales</h1>
+
+    <form>
+        <input
+          type="text"
+          value="ESTUDIANTE"
+          size="50"
+          disabled
+        />
+
+        <label for="NombreCompleto">Nombre y apellido</label>
+        <input
+          type="text"
+          placeholder="Ingrese su nombre y apellido"
+          size="60"
+          maxlength="20"
+          required
+          autocomplete
+        />
+
+        <label for="Email">Email</label>
+        <input
+          type="text"
+          placeholder="Ingrese su Email"
+          size="50"
+          maxlength="20"
+          required
+          autocomplete
+        />
+
+        <label for="Edad">Edad</label>
+        <input
+          type="text"
+          placeholder="Ingrese su edad"
+          size="60"
+          maxlength="20"
+          required
+          autocomplete
+        />
+
+        <label for="Seleccionable" >Seleccione su nacionalidad</label>
+        <select name="Seleccionable" id="Seleccionable">
+            <option value="Argentina">Argentina</option>
+            <option value="Brasil">Brasil</option>
+            <option value="Colombia">Colombia</option>
+            <option value="Mexico">Mexico</option>
+        </select>
+
+        <label for="CondicionLaboral" >Seleccione su condicion laboral</label>
+        <select name="CondicionLaboral" id="CondicionLaboral">
+            <option value="Desempleado">Desempleado</option>
+            <option value="En búsqueda laboral">En búsqueda laboral</option>
+            <option value="Trabajo part time">Trabajo part time</option>
+            <option value="trabajo full time">trabajo full time</option>
+        </select>
+    </form>
+
+    <form>
+        <fieldset>
+            <legend>Datos del usuario</legend>
+            <label for="GustosMusicales">Gustos musicales:</label>
+            <input type="text" id="GustosMusicales" name="GustosMusicales">
+            <label for="Comidas">Comidad preferidas</label>
+            <input type="text" id="Comidas" name="Comidas">
+            <label for="checkbox">Guardar Datos</label>
+            <input type="checkbox" name="CheckA" id="CheckA">
+            <input type="checkbox" name="CheckB" id="CheckB">
+            <input type="checkbox" name="CheckC" id="CheckC">
+
+            <input type="submit" name="Enviar">
+        </fieldset>
+    </form>
+</body>
+</html>
